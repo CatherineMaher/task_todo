@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO📝</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="sw.js"></script>
+    <script type="text/javascript" src="js/idb.js"></script>
+    <script type="text/javascript" src="js/mydb.js"></script>
+  </head>
+
+  <body>
+    <div class="maincontainer">
+      <section class="td">
+        <h1>TODO List</h1>
+        <p id="tskdis"></p>
+      </section>
+      <form id="todo-list">
+        <h2>Add new todo</h2>
+        <label for="ttl" class="title">Task Title:</label>
+        <input id="ttl" type="text" /><br /><br />
+        <label for="hrs" class="hours">Hours (hh):</label>
+        <input id="hrs" type="number" min="1" max="24" />
+        <label for="mins" class="minutes">Mins (mm):</label>
+        <input id="mins" type="number" min="1" max="59" /><br /><br />
+        <span class="dy">
+          <label for="day" class="day">Day:</label>
+          <br /><br />
+          <select name="day" id="day"></select>
+        </span>
+        <span class="mnth">
+          <label for="month" class="month">Month:</label>
+          <br /><br />
+          <select name="month" id="month"></select>
+        </span>
+        <span class="yr">
+          <label for="year" class="year">Year:</label>
+          <br /><br />
+          <select name="year" id="year"></select>
+        </span>
+        <br /><br />
+        <input type="submit" id="submit" value="Add Task" />
+      </form>
+      <footer id="footer">
+        <span class="leftsec">
+          <ul>
+            <li>ACHIEVE</li>
+            <li>SUCCESS</li>
+            <li>ACCOMPLISH</li>
+            <li>PERSIST</li>
+            <li>CONQUER</li>
+          </ul>
+        </span>
+        <button id="noti">Enable Notifications</button>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="todo.js"></script>
+  </body>
+</html>

@@ -6,29 +6,26 @@ body {
   height: 100vh;
   margin: 0;
 }
+
 .maincontainer {
   border: 2px solid #ff895d;
   box-shadow: 10px 10px 10px;
   margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left:60px;
-  padding-right:60px;
-  padding-bottom: 30px;
+  padding: 30px;
   background-color: #d5eeff;
   width: 500px;
- border-radius:6px ;
-  align-items: center;
+  border-radius: 6px;
+  text-align: center; /* Center text content */
 }
+
 h1 {
   font-size: 40pt;
   font-family: monospace;
   position: relative;
-  left: 25%;
- display: inline-block;
- margin-top: 20px;
- 
+  display: inline-block;
+  margin-top: 20px;
 }
+
 label,
 button,
 #submit {
@@ -36,56 +33,63 @@ button,
   font-size: larger;
   font-weight: bold;
   margin-top: 8%;
+  display: inline-block;
+  margin: auto;
 }
 
 #ttl {
   width: 320px;
-  
 }
+
 #hrs,
 #mins {
   width: 110px;
 }
+
 .dy,
 .mnth,
 .yr {
   display: inline-block;
-  margin-right: 74px;
+  margin-right: 20px; /* Adjust as needed */
 }
+
 .td {
   width: 100%;
   height: 40px;
-  position: relative;
   padding-bottom: 60px;
   background-color: #ff895d;
-  box-shadow: 4px 4px 6px ;
+  box-shadow: 4px 4px 6px;
   border-radius: 6px;
   margin-top: 25px;
-  display:inline-block;
-
+  display: inline-block;
 }
+
 button,
 #submit {
   background-color: #ff895d;
   padding: 2%;
   border: 3px solid #005689;
   border-radius: 10px;
+  display: block;
+  margin: auto; /* Center the element */
 }
+
 button:hover,
 #submit:hover {
   color: #d5eeff;
   box-shadow: 5px 5px 15px #005689;
 }
+
 #submit {
   width: 300px;
-  position: relative;
-  left: 15%;
+  margin-top: 15px;
 }
+
 button {
   position: relative;
   bottom: 90px;
-  left: 60%;
 }
+
 form {
   border: 1px solid #ff895d;
   box-shadow: 5px 5px 15px #005689;
@@ -93,15 +97,16 @@ form {
   padding: 30px;
   align-items: center;
 }
-h2{
+
+h2 {
   font-size: 18pt;
   font-family: monospace;
   position: relative;
-   text-align: center;
-   padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-ul{
+ul {
   position: relative;
   top: 12px;
   overflow-y: scroll;
@@ -109,28 +114,34 @@ ul{
   height: 70px;
 }
 
-#spanX{
+#spanX {
   display: inline-block;
   position: relative;
-  top:90px;
-
+  top: 90px;
 }
-hr{
+
+hr {
   color: #ff895d;
-
 }
 
-.done{
+.done {
   text-decoration: line-through;
 }
-#x{
+
+#x {
   padding-left: 3px;
   padding-right: 3px;
   text-align: center;
-
 }
-#title{
+
+#title {
   font-family: monospace;
   font-weight: 300;
   font-size: 15pt;
+  text-align: center; /* Center text content */
+}
+
+#noti {
+  margin-left: 300px;
+  margin-top: 40px;
 }
